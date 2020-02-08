@@ -40,7 +40,9 @@ def list_of_directors(source)
 end
 
 def total_gross(source)
-  
+  result = {}
+  gross_index = 0
+
 
 
 end
