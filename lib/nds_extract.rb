@@ -8,7 +8,7 @@ def directors_totals(source)
     director = source[director_index]
     result[director[:name]] = gross_for_director(director)
     director_index += 1
-    binding.pry
+    # binding.pry
   end
   result
 end
