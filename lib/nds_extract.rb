@@ -10,7 +10,6 @@ def directors_totals(source)
     director_index += 1
     # binding.pry
   end
-
   result
 end
 
@@ -29,7 +28,6 @@ end
 def list_of_directors(source)
   list_of_directors = []
   name_index = 0
-
   while name_index < source.length
     director_name = source[name_index][:name]
     list_of_directors << director_name
@@ -40,10 +38,6 @@ def list_of_directors(source)
 end
 
 def total_gross(source)
-  result = {}
-  gross_index = 0
-
-
 
 end
 # Write this implementation
