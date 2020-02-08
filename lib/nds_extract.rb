@@ -33,7 +33,7 @@ def list_of_directors(source)
     list_of_directors << director_name
     name_index += 1
   end
-  
+
   director_name
 end
 
