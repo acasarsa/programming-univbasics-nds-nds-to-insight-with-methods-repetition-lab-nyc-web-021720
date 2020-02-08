@@ -28,6 +28,7 @@ end
 def list_of_directors(source)
   list_of_directors = []
   name_index = 0
+  
   while name_index < source.length
     director_name = source[name_index][:name]
     list_of_directors << director_name
