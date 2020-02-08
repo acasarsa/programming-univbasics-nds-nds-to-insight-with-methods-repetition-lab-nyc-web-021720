@@ -11,7 +11,7 @@ def directors_totals(source)
   end
   result
 end
-
+binding.pry
 def gross_for_director(d)
   total = 0
   index = 0
@@ -23,7 +23,7 @@ def gross_for_director(d)
 
   total
 end
-binding.pry
+
 def list_of_directors(source)
   # name_index = 0
   # while name_index <
