@@ -25,8 +25,8 @@ def gross_for_director(d)
 end
 binding.pry
 def list_of_directors(source)
-  name_index = 0
-  while name_index <
+  # name_index = 0
+  # while name_index <
 end
 
 def total_gross(source)
